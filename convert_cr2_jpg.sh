@@ -1,0 +1,5 @@
+for pic in *.CR2
+do
+     darktable-cli "$pic" "$(basename ${pic%.CR2}.jpg)"; 
+done
+
